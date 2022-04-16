@@ -1,9 +1,11 @@
 .u-max-full-width{
   border-radius: 25%; 
 }
-#info_text{
+
+.info_text{
   color: gray;
 }
-#info_description{
+
+.info_description{
   font-size: 3ch;
 }
