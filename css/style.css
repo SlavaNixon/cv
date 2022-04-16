@@ -1,5 +1,9 @@
-.u-max-full-width{
-  border-radius: 25%; 
+.avatar{
+  border-radius: 25%;
+  width: 90%;
+  float: left;
+  position: relative;
+  left: 50px;
 }
 
 .info_text{
