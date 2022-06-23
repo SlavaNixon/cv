@@ -13,3 +13,15 @@
 .info_description{
   font-size: 3ch;
 }
+
+.mt-big{
+  margin-top: 2ch;
+}
+
+.red{
+  color: red;
+}
+
+.dark-red{
+  color: darkred;
+}
