@@ -11,11 +11,13 @@
     href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic"
     rel="stylesheet" type="text/css">
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>  
 
-</head>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
 
 <body>
 
@@ -60,60 +62,78 @@
     </div>
 
   </div>
-
+  <hr/>
   <div class="row">
     <div class="four columns info_text">
       <h5>О себе</h5>
     </div>
     <div class="eight columns info_description">
-      Умение правильно распределить время позволяет мне качественно и быстро выполнять сложные задания. 
-      <p class="mt-big">Работал репетитором, имею обширную математическую базу. Могу простыми словами объяснить сложные вещи.</p>
-      <p class="mt-big">Умею ставить перед собой цель и добиваться ее.</p>
+      <h5>Влюбился в программирование со школы.</h5>
+      <h5 class="mt-big">Умение правильно распределить время позволяет мне качественно и быстро выполнять сложные задания.</h5>
+      <h5 class="mt-big">Работал репетитором, мои ученики поступают в лучшие вузы России.</h5>
+      <h5 class="mt-big">Имею обширную математическую базу. Могу простыми словами объяснить сложные вещи.</h5>
+      <h5 class="mt-big">Умею ставить перед собой цель и добиваться ее.</h5>
     </div>
   </div>
-
-  <div>
-    <div class="four columns info_text">
+  <hr/>
+  <div class="row">
+    <div class="col col-4 info_text">
       <h5>Навыки</h5>
     </div>
-    <div class="eight columns info_description">
+    <div class="col col-8 info_description">
       <h3 class="dark-red">Ruby, Ruby on Rails</h3>
         <ul>
-          <li><span class="red">MVC</span> - понимание паттерна</li>
-          <li><span class="red">RSpec</span> - понимаю важность покрытия кода тестами. При тестировании работал с гемом FactoryBot. Для интеграционных тестов использовал гем Capybara</li>
-          <li><span class="red">I18n</span> - работал с локализацией и гемом rails-i18n</li>
-          <li><span class="red">Active Record</span> - создание миграций, постороение запросов к базе данных, определение связей в моделях, создание валидаций</li>
-          <li><span class="red">Action Storage</span> - подключал как Yandex Cloud к проекту, так и локальное хранилище</li>
-          <li><span class="red">Action Mailer</span> - успешно подключал Mailer к проекту</li>
-          <li><span class="red">Devise</span> - быстрая и удобная регистрация</li>
+          <li><span class="red">MVC</span> — понимание паттерна</li>
+          <li><span class="red">RSpec</span> — понимаю важность покрытия кода тестами</li>
+          <li><span class="red">I18n</span> — работал с локализацией и гемом rails-i18n</li>
+          <li><span class="red">Active Record</span> — создание миграций, постороение запросов к базе данных, определение связей в моделях, создание валидаций</li>
+          <li><span class="red">Active Storage</span> — подключал как Yandex Cloud к проекту, так и локальное хранилище</li>
+          <li><span class="red">Action Mailer</span> — успешно подключал Mailer к проекту</li>
+          <li><span class="red">Devise</span> — быстрая и удобная регистрация</li>
         </ul>
 
       <h3 class="dark-red">Frontend</h3>
-      <ul><li>HTML, CSS, Bootstrap4</li></ul>
+      <ul><li>HTML, CSS, Bootstrap, JS, Haml, Slim</li></ul>
 
       <h3 class="dark-red">Technologies</h3>
-      <ul><li>Git, heroku, Github</li></ul>
+      <ul><li>Git, heroku, Github, Gitlab, Jira</li></ul>
 
       <h3 class="dark-red">Databases</h3>
-      <ul><li>PostgresSQL, sqlite</li></ul>
+      <ul><li>PostgresSQL, sqlite, mysql</li></ul>
     </div>
   </div>
-
-  <div>
-    <div class="four columns info_text">
+  <hr/>
+  <div class="row">
+    <div class="col col-4 info_text">
+      <h5>Опыт работы</h5>
+    </div>
+    <div class="col col-8 info_description">
+      <div class="mb-4"><span class="red">Софт Проект</span><br>2022 июль – Настоящее время </div>
+        <div class="info_text">Обязанности</div>
+        <ul>
+          <li>Разработка и доработка функционала проекта связанного с телефонией</li>
+          <li>Рефакторинг legacy кода</li>
+          <li>Работа с mysql, создание новых миграций</li>
+          <li>Устранение и фикс багов</li>
+        </ul>
+    </div>
+  </div>
+  <hr/>
+  <div class="row">
+    <div class="col col-4 info_text">
       <h5>Образование</h5>
     </div>
-    <div class="eight columns info_description">
-      2020 сентябрь – Настоящее время — <a href="https://stankin.ru">Московский государственный технологический университет «СТАНКИН»</a>
-      <p>2022 февраль – 2022 июнь — <a href="https://goodprogrammer.ru/">Курсы «Хороший программист»</a></p>
+    <div class="col col-8 info_description">
+      <p><a class="red" href="https://stankin.ru">Московский государственный технологический университет «СТАНКИН»</a><br>2020 сентябрь – Настоящее время</p>
+      <p><a class="red" href="https://goodprogrammer.ru/">Курсы «Хороший программист»</a><br>2022 февраль – 2022 июнь</p>
     </div>
   </div>
-
-  <div>
-    <div class="four columns info_text">
+  <hr/>
+  <div class="row">
+    <div class="col col-4 info_text">
       <h5>Языки</h5>
     </div>
-    <div class="eight columns info_description">
+    <div class="col col-8 info_description">
       <ul>
         <li>Английский — B2</li>
         <li>Русский — Родной</li>
