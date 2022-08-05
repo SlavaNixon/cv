@@ -1,4 +1,4 @@
-.avatar{
+.avatar {
   border-radius: 25%;
   width: 90%;
   float: left;
@@ -6,23 +6,23 @@
   left: 50px;
 }
 
-.info_text{
+.info_text {
   color: gray;
 }
 
-.info_description{
+.info_description {
   font-size: 3ch;
 }
 
-.mt-big{
+.mt-big {
   margin-top: 2ch;
 }
 
-.red{
+.red {
   color: red;
 }
 
-.dark-red{
+.dark-red {
   color: darkred;
 }
 
